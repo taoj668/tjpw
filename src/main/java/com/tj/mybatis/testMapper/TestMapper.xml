@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tj.mybatis.testMapper.TestMapper">  
+	<select id="query" parameterType="com.tj.model.TestModel" resultType="com.tj.model.TestModel">
+		select * from tjpw_testtable
+		<where>
+			1 = 1
+ 			<if test="groupName != null and groupName != '' ">
+			and GroupName = #{groupName}
+			</if>
+ 			<if test="UserName != null and UserName != '' ">
+			and UserName = #{UserName}
+			</if>
+		</where>
+
+	</select>
+</mapper>
