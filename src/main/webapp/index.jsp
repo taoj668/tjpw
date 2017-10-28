@@ -29,7 +29,7 @@
 		<!-- 轮播图 -->
 		<section class="banner">
 			<div class="banner-left">
-		        <%-- <ul>
+		      <%--   <ul>
 		            <li><img src="${pageContext.request.contextPath}/img/main/1.jpg" alt="1"/></li>
 		            <li><img src="${pageContext.request.contextPath}/img/main/2.jpg" alt="2"/></li>
 		            <li><img src="${pageContext.request.contextPath}/img/main/3.jpg" alt="3"/></li>
@@ -40,22 +40,27 @@
 		            <li></li>
 		            <li></li>
 		            <li></li>
-		        </ol>			 --%>
-		        <img alt="" src="${pageContext.request.contextPath}/img/main/happy.GIF">
+		        </ol>	 --%>
+		        <div class="banner-left-inner">	
+		        	<div class="banner-left-inner-top"></div>	
+		       		<img alt="" src="${pageContext.request.contextPath}/img/main/happy.GIF">
+		        </div>
 			</div>
 			<div class="banner-right">
-		        <ul>
-		            <li><img src="${pageContext.request.contextPath}/img/main/1.jpg" alt="1"/></li>
-		            <li><img src="${pageContext.request.contextPath}/img/main/2.jpg" alt="2"/></li>
-		            <li><img src="${pageContext.request.contextPath}/img/main/3.jpg" alt="3"/></li>
-		            <li><img src="${pageContext.request.contextPath}/img/main/4.jpg" alt="4"/></li>
-		        </ul>
-		        <ol>
-		            <li></li>
-		            <li></li>
-		            <li></li>
-		            <li></li>
-		        </ol>				
+				<div class="banner-right-inner">
+			        <ul>
+			            <li><img src="${pageContext.request.contextPath}/img/main/1.jpg" alt="1"/></li>
+			            <li><img src="${pageContext.request.contextPath}/img/main/2.jpg" alt="2"/></li>
+			            <li><img src="${pageContext.request.contextPath}/img/main/3.jpg" alt="3"/></li>
+			            <li><img src="${pageContext.request.contextPath}/img/main/4.jpg" alt="4"/></li>
+			        </ul>
+			        <ol>
+			            <li></li>
+			            <li></li>
+			            <li></li>
+			            <li></li>
+			        </ol>				
+				</div>
 			</div>
 			<div class="boundary"></div>
 		</section>
