@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+$(function(){
+        <!--调用Luara-->
+        $(".banner-right-up-inner").luara({width:"240",height:"175",interval:3500,selected:"seleted",deriction:"top"});
+        $(".banner-right-down-inner").luara({width:"240",height:"175",interval:4000,selected:"seleted",deriction:"left"});
+        $(".banner-left-inner").luara({width:"100%",height:"100%",interval:3000,selected:"seleted"});
+    });
