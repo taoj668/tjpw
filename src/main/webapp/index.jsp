@@ -29,30 +29,12 @@
 		<!-- 轮播图 -->
 		<section class="banner">
 			<div class="banner-left">
-		      <%--   <ul>
-		            <li><img src="${pageContext.request.contextPath}/img/main/1.jpg" alt="1"/></li>
-		            <li><img src="${pageContext.request.contextPath}/img/main/2.jpg" alt="2"/></li>
-		            <li><img src="${pageContext.request.contextPath}/img/main/3.jpg" alt="3"/></li>
-		            <li><img src="${pageContext.request.contextPath}/img/main/4.jpg" alt="4"/></li>
-		        </ul>
-		        <ol>
-		            <li></li>
-		            <li></li>
-		            <li></li>
-		            <li></li>
-		        </ol>	 --%>
-		        <div class="banner-left-inner">	
-		        	<div class="banner-left-inner-top"></div>	
-		       		<img alt="" src="${pageContext.request.contextPath}/img/main/happy.GIF">
-		        </div>
-			</div>
-			<div class="banner-right">
-				<div class="banner-right-inner">
+				<div class="banner-left-inner">
 			        <ul>
-			            <li><img src="${pageContext.request.contextPath}/img/main/1.jpg" alt="1"/></li>
-			            <li><img src="${pageContext.request.contextPath}/img/main/2.jpg" alt="2"/></li>
-			            <li><img src="${pageContext.request.contextPath}/img/main/3.jpg" alt="3"/></li>
-			            <li><img src="${pageContext.request.contextPath}/img/main/4.jpg" alt="4"/></li>
+			            <li><img src="${pageContext.request.contextPath}/img/main/banner-left-1.jpg" alt="1"/></li>
+			            <li><img src="${pageContext.request.contextPath}/img/main/banner-left-2.jpg" alt="2"/></li>
+			            <li><img src="${pageContext.request.contextPath}/img/main/banner-left-3.jpg" alt="3"/></li>
+			            <li><img src="${pageContext.request.contextPath}/img/main/banner-left-4.jpg" alt="4"/></li>
 			        </ul>
 			        <ol>
 			            <li></li>
@@ -61,6 +43,32 @@
 			            <li></li>
 			        </ol>				
 				</div>
+			</div>
+			<div class="banner-right">
+			 	<div class="banner-right-up">
+					<div class="banner-right-up-inner">
+				        <ul>
+				            <li><img src="${pageContext.request.contextPath}/img/main/banner-right-up-1.jpg" alt="1"/></li>
+				            <li><img src="${pageContext.request.contextPath}/img/main/banner-right-up-2.jpg" alt="2"/></li>
+				            <li><img src="${pageContext.request.contextPath}/img/main/banner-right-up-3.jpg" alt="3"/></li>
+				            <li><img src="${pageContext.request.contextPath}/img/main/banner-right-up-4.jpg" alt="4"/></li>
+				        </ul>
+			        </div>
+		         </div> 
+		        <div class="banner-right-down">
+					<div class="banner-right-down-inner">
+				        <ul>
+				            <li><img src="${pageContext.request.contextPath}/img/main/banner-right-down-1.jpg" alt="1"/></li>
+				            <li><img src="${pageContext.request.contextPath}/img/main/banner-right-down-2.jpg" alt="2"/></li>
+				            <li><img src="${pageContext.request.contextPath}/img/main/banner-right-down-3.jpg" alt="3"/></li>
+				            <li><img src="${pageContext.request.contextPath}/img/main/banner-right-down-4.jpg" alt="4"/></li>
+				        </ul>
+			        </div>
+		        </div>
+<%-- 		        <div class="banner-left-inner">	
+		        	<div class="banner-left-inner-top"></div>	
+		       		<img alt="" src="${pageContext.request.contextPath}/img/main/happy.GIF">
+		        </div>  --%>
 			</div>
 			<div class="boundary"></div>
 		</section>
